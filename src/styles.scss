@@ -1,0 +1,599 @@
+/* You can add global styles to this file, and also import other style files */
+@import '~material-icons/iconfont/material-icons.scss';
+
+@import "~primeicons/primeicons.css";
+@import "~primeng/resources/themes/saga-blue/theme.css"; // Adjust theme as per your requirement
+@import "~primeng/resources/primeng.min.css";
+
+// footer{
+//   display: flex;
+//   justify-content: space-between;
+//   padding: 0.5rem 1rem;
+  
+
+//   font-family: "Source Sans Pro','Helvetica Neue',Helvetica,Arial,sans-serif";
+//   font-weight: 400;
+//   background-color: #fff;
+//   padding: 3px;
+//   color: #444;
+//   border-top:1px solid #d2d6de;
+//   display: block;
+//  margin-top: auto;
+//   font-size: 15px;
+//   margin:370px 0 0 0;
+// }
+// .profile{
+//   width:130px;
+ 
+// }
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; min-height: 100vh;}
+
+// .content-margin{
+//     margin-left: 170px;
+// }
+.btn-qualtechcolor, .btn-qualtechcolor:focus{
+  background-color: rgb(0 64 133) !important;
+  border-color: rgb(0 64 133) !important;
+}
+.mat-form-field{
+    //margin: 7px;
+    width:100%;
+}
+
+  .example-full-width {
+    width: 100%;
+  }
+  
+  td {
+    padding-right: 8px;
+  }
+
+  .example-tel-input-container {
+    display: flex;
+  }
+  
+  .example-tel-input-element {
+    border: none;
+    background: none;
+    padding: 0;
+    outline: none;
+    font: inherit;
+    text-align: center;
+  }
+  
+  .example-tel-input-spacer {
+    opacity: 0;
+    transition: opacity 200ms;
+  }
+  
+  :host.example-floating .example-tel-input-spacer {
+    opacity: 1;
+  }
+
+  // .example-form {
+  //   min-width: 150px;
+  //   max-width: 300px;
+  //   width: 100%;
+  // }
+  
+  .example-full-width {
+    width: 100%;
+  }
+ 
+  .mat-header-cell {
+    //position: sticky;
+    top: 0;
+    //background-color: rgb(65, 105, 225);
+    //background-color:rgb(103, 184, 23);
+    color:#000000;
+    font-weight:bold;
+    background-color: #D3D3D3;
+    text-align: center;
+    font-size: 15px;
+}
+
+.standard{
+  background-color:blueviolet;color: cornsilk;font-weight: 500; font-size: 20px;margin-bottom: 10px;text-align: center;
+      margin-left: 120px; margin-right: 120px;
+
+}
+.example-container {
+    height: 270px;
+    overflow: auto;
+}
+  
+  .example-form {
+    min-width: 150px;
+    max-width: 500px;
+    width: 100%;
+  }
+  
+  .example-full-width {
+    width: 100%;
+  }
+
+  
+  .mat-sort-header-arrow{
+    color: black;
+  }
+ 
+    .mat-row{
+     
+      width: 100%;
+      min-height: 30px;
+
+    }
+    .mat-header-row {
+      
+        width: 100%;
+        min-height: 40px;
+    }
+
+    .mat-column-action {
+      
+       
+        justify-content:left;
+       
+    }
+
+
+  .save-btn{
+    color:white;
+    background-color:rgb(103, 184, 23)
+    }
+    .start-btn{
+      color:white;
+      background-color:rgb(15, 112, 239)
+      }
+      .stop-btn{
+        color:white;
+        background-color:rgb(201, 26, 26)
+        }
+        .clear-btn{
+          color:white;
+          background-color:rgb(233, 138, 22)
+          }
+
+ .cancel-btn{
+  color:white;
+  background-color:rgb(235, 77, 108)
+ }
+
+ .example-form mat-slide-toggle {
+  margin: 8px 0;
+  display: block;
+  //color:darkgoldenrod;
+}
+
+ .example-button-container {
+  display: flex;
+  justify-content: center;
+  width: 90px;
+  font-size: 20px;
+}
+
+.mat-mini-fab{
+  width:20px;
+  height:20px;
+}
+
+.my-fab {
+  width: 15px;
+  height: 15px;
+  line-height: 14px;
+  font-size: 10px;
+
+  &::ng-deep .mat-button-wrapper{
+      line-height: 14px;
+      padding: 0;
+
+       .mat-icon {
+           font-size: 10px;
+           padding-right: 4px;
+           padding-top: 4px;
+       }
+ }
+}
+
+
+.mat-card mat-elevation-z4 p-24 mr-24{
+  background-color:blueviolet; 
+}
+
+.table-edit{
+  font-size: 2em; color: rgb(111, 111, 243);
+}
+.table-delete{
+  font-size: 2em; color:rgb(238, 119, 119);
+}
+
+.swal2-popup {
+  font-size: 13px ;
+  width: 19em !important;
+  max-height: 26em;
+  min-height: 8em;
+ 
+  //font-family: Georgia, serif;
+}
+.swal2-title{
+  font-size: 15px !important;;
+}
+
+ .mat-table{
+  height:270px;
+}
+// .mat-cell{
+//   border-left: 1px solid black;
+// }
+.table-padding{
+  border: 1px  rgb(243, 209, 209) solid;
+}
+
+.mobile-label {
+  display: none;
+}
+
+
+.filter{
+  float: right;
+}
+
+
+.btn-margin{
+  text-align: center;
+  margin-top: 15px;
+}
+
+.mat-table{
+  .matColumnDef{
+    width:400px;
+  }
+  .mat-column-action {     
+    justify-content:left;
+   }
+
+}
+.abc{display:none}
+
+.navbar{
+  display: inline-flex;
+}
+
+.error{
+  color:red 
+}
+
+.right {
+  float: right !important;
+}
+
+.left {
+  float: left !important;
+}
+
+
+// .img-fluid {
+//   max-width: 20% !important;
+//   float: right;
+ 
+// }
+.img-fluid {
+  max-width: 14% !important;
+ // float: right;
+ // margin-right: 17% !important;
+}
+.img-fluids{
+  max-width: 14% !important;
+    margin-top: 10px;
+}
+@media(max-width: 600px) {
+  .mobile-label {
+   // width: 280px;
+    display: inline-block;
+    font-weight: bold;
+  }
+  .mat-table{
+  width:800px !important;
+  
+  }
+  .img-fluid {
+    //max-width: 28% !important;
+    max-width: 14% !important;
+
+  }
+  .img-fluids{
+    //max-width: 20% !important;
+    max-width: 14% !important;
+
+    margin-bottom: 10px;
+      
+  }
+  // .navbar{
+  //   display: none;
+  // }
+  .mat-table.mat-cell{
+  overflow-wrap: break-word;
+    word-wrap: break-word;
+  justify-content: center !important;
+   
+}
+
+// .img-fluids{
+//   display: none;
+// }
+// .img-fluid {
+//   display: none;
+// }
+// .img-fluids{
+//   display: none;
+// }
+// .img-fluid {
+//   display: none;
+// }
+
+  .mat-header-row {
+    text-align: center;
+  }
+
+  .mat-row { 
+    //flex-direction: column;
+    align-items: start;
+    padding: 8px 24px;
+  }
+
+//new mobile view menu
+
+#smart-menu {
+  position: relative;
+  z-index: 9999;
+  width: auto;
+}
+
+#smart-menu ul {
+  width: 12em; /* fixed width only please - you can use the "subMenusMinWidth"/"subMenusMaxWidth" script options to override this if you like */
+}
+
+
+
+}
+
+
+// @media screen and (max-width: 960px) {
+
+//   .mat-table{
+//     width:auto;
+    
+//   }
+
+//   .mat-table caption {
+//     font-size: 1em;
+//   }
+  
+//   .mat-table .mat-cell:before {
+  
+//     content: attr(data-label);
+    
+//     text-transform: uppercase;
+//     font-weight: normal;
+    
+//     font-size: .85em;
+//   }
+//   .mat-table .mat-cell:last-child {
+//     border-bottom: 0;
+//   }
+//     .mat-table .mat-cell:first-child {
+//     margin-top: 4%;
+//   }
+// }
+
+.dropdown-toggle.active-dropdown::after {
+  transform: rotate(-90deg);
+}
+.dropdown-toggle.active-dropdown::after{transform:rotate(-90deg)}
+
+
+
+.flex {
+  display: flex;
+}
+.navbar{
+  justify-content: space-between;
+  margin-bottom: 2px;
+  width: 100%;
+ // background-color: hsl(240, 74%, 55%);
+  //background-color:rgb(221, 221, 235) ;
+ // background-color:rgb(185, 185, 247) ;
+ background-color:white ;
+  
+ 
+}
+
+.navbar2{
+  justify-content: space-between;
+  margin-bottom: 10px;
+  width: 100%;
+ // background-color: hsl(240, 74%, 55%);
+  //background-color:rgb(221, 221, 235) ;
+ // background-color:rgb(185, 185, 247) ;
+ background-color:white ;//#5ABE3C;
+  
+}
+
+.footers{
+  //justify-content:space-between;  
+  //position: absolute;
+  position: fixed;
+  bottom: 0px;
+  //margin-bottom: 5px;
+  height:60px;
+  width: 100%;
+}
+
+.footer{ 
+  //position: absolute;
+  margin-top: 5px;
+  bottom: 0px;
+   height:30px;
+   width: 100%;
+   font-size: smaller;
+  background-color:white;
+  }
+
+  .footer2{
+    //justify-content:space-between;  
+    position: absolute;
+    bottom: 0px;
+    //margin-bottom: 5px;
+    height:25px;
+    width: 100%;
+    font-size: small;
+   background-color:#5ABE3C;
+  }
+
+  .box{    
+    position: absolute;
+    align-content: center;
+    margin-top: 1px;
+    margin-bottom:1px;     
+  }
+    
+  .example-box{
+    border-radius:8px; 
+    font-size:12px;
+    text-align: center;
+    justify-content:space-between;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-left:5px;
+    margin-right: 1px;
+    margin-top: 4px;
+    margin-bottom: 0px;    
+  }
+  
+// .example-chip .cdk-drop-list-dragging {
+//   transition: transform 250ms cubic-bezier(0, 0, 0.2, 1);
+// }
+
+
+// .example-box.cdk-drag-animating {
+//   transition: transform 250ms cubic-bezier(0, 0, 0.2, 1);
+ 
+// }
+
+
+.menu{
+  margin-right: 10px;
+ margin-top: 10px;
+  float: right;
+ // background-color: aquamarine;
+}
+
+.headercolor{
+ 
+  // background-color:blueviolet;
+  //color:gray;
+  font-weight: 500; font-size: 20px;margin-bottom: 15px;text-align: center;
+  //font:bold;
+  color:black;
+ //border: 1px rgb(197, 171, 171) solid;
+  //background-color: #498ef5;
+  //background-color:rgb(169, 105, 230); 
+ // background-color: rgb(106, 141, 245);
+ font-size: 30px;
+font-weight: bold;
+ font-family: Roboto,Helvetica Neue Light,Helvetica Neue,Helvetica,Arial,Lucida Grande,sans-serif;
+ //font-family: Calibri (Body);
+ }
+//  .matmenu {
+//  background-color: cornflowerblue;
+//  }
+
+
+
+ .submenu-container {
+  position: absolute;
+  left: 160px;
+  display: flex;
+  height: 0;
+  overflow-y: hidden;
+  transition: height 0.5s ease-out;
+  overflow: hidden;
+  flex-direction: column;
+  align-items: stretch;
+  box-sizing: border-box;
+  width: auto;
+  word-break: keep-all;
+  z-index: 1;
+  background-color: #2d3a85;
+}
+
+a:hover .submenu-container {
+  border: 2px solid gray;
+  height: 128px;
+  transition: height 0.25s linear;
+}
+
+.submenu-item {
+  padding: 0.3rem 0.8rem;
+}
+
+//mat-table
+.rowStyle{
+  background-color:white;
+  font-weight: bold;
+  }
+  .mat-row:nth-child(even){
+      background-color:white;
+  }
+          
+  .mat-row:nth-child(odd){
+      background-color:#ededed;
+  }
+
+  .alternate { background-color: hsl(0, 0%, 96%) }
+
+  .mat-cell{
+   
+    word-wrap: break-word;
+    word-break:break-all;
+    margin-right:3px;  
+   
+    
+}
+::ng-deep .mat-checkbox-ripple .mat-ripple-element {
+  background-color: rgb(0, 64, 133) !important;
+}
+
+::ng-deep .mat-checkbox-checked.mat-accent .mat-checkbox-background {
+  background-color: rgb(0, 64, 133) !important;
+}
+
+::ng-deep .mat-checkbox-indeterminate.mat-accent .mat-checkbox-background {
+  background-color: rgb(0, 64, 133) !important;
+}
+::ng-deep .mat-radio-button.mat-accent .mat-radio-inner-circle {
+  background-color: #004085;
+}
+::ng-deep .mat-radio-button.mat-accent .mat-radio-outer-circle{
+  border-color: #004085 !important;
+}
+
+
+// .login{
+//     min-width: 30%;
+//   max-width: 300px;
+//   width: 100%;
+//  float: center;
+// }
+
+.app-toolbar {
+  position: sticky;
+  position: -webkit-sticky; /* For macOS/iOS Safari */
+  top: 0; /* Sets the sticky toolbar to be on top */
+  z-index: 1000; /* Ensure that your app's content doesn't overlap the toolbar */
+}
+mat-sidenav-content {
+  height: 88vh;
+}

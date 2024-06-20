@@ -1,0 +1,28 @@
+{
+  "products": [
+    {
+      "id": 13,
+      "Name": "Samsung",
+      "Category": "Mobile Phones",
+      "Price": "15000"
+    },
+    {
+      "id": 14,
+      "Name": "Vivo",
+      "Category": "Mobile Phones",
+      "Price": "10000"
+    },
+    {
+      "id": 15,
+      "Name": "Readme",
+      "Category": "Mobile Phones",
+      "Price": "18000"
+    },
+    {
+      "id": 16,
+      "Name": "Oppo",
+      "Category": "Mobile Phones",
+      "Price": "12000"
+    }
+  ]
+}
