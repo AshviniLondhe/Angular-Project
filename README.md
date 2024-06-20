@@ -43,3 +43,6 @@ The chart updates automatically as data in the PrimeNG table is added, edited, o
 After starting the development server (ng serve), open your web browser and go to http://localhost:4200/.
 Use the PrimeNG table to perform CRUD operations (view, add, edit, delete data).
 Observe the ngx-charts bar chart updating dynamically based on changes to the table data.
+
+## ScreenShots
+![Screenshot](https://github.com/AshviniLondhe/Angular-Project/assets/123794248/07c55c96-ee3c-47b3-95a2-d6237cd55d57 width="300px" height="200px")
