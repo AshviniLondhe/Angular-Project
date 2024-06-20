@@ -1,5 +1,5 @@
-## Angular PrimeNG CRUD Application with ngx-charts
-This Angular application demonstrates CRUD operations using PrimeNG components and displays data dynamically in a bar chart using ngx-charts.
+## Angular CRUD Application with  PrimeNG Table And ngx-charts
+This Angular application demonstrates CRUD operations using PrimeNG Table and displays data dynamically in a bar chart using ngx-charts.
 
 
 ## Prerequisites
