@@ -45,4 +45,6 @@ Use the PrimeNG table to perform CRUD operations (view, add, edit, delete data).
 Observe the ngx-charts bar chart updating dynamically based on changes to the table data.
 
 ## ScreenShots
-![Screenshot](https://github.com/AshviniLondhe/Angular-Project/assets/123794248/07c55c96-ee3c-47b3-95a2-d6237cd55d57 width="300px" height="200px")
+<img src="https://github.com/AshviniLondhe/Angular-Project/assets/123794248/07c55c96-ee3c-47b3-95a2-d6237cd55d57" width="500px" height="300px"/>
+
+<img src="https://github.com/AshviniLondhe/Angular-Project/assets/123794248/2acc10aa-145b-4a2c-b31e-feea85be531f" width="500px" height="300px"/>
