@@ -23,7 +23,7 @@ Open your web browser and navigate to http://localhost:4200/ to see the running 
 ### PrimeNG CRUD Operations
 
 #### View Data: 
-Displays a PrimeNG table with data fetched from a mock API or backend service.
+Displays a PrimeNG table with data fetched from a json server.
 
 #### Add Data:
 Allows adding new entries to the table.
